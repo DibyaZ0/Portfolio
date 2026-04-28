@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dibya Jyoti Sahoo — Full Stack Developer | MERN Engineer</title>
+    <meta name="description" content="Portfolio of Dibya Jyoti Sahoo — Entry-level Full Stack Software Engineer specialising in the MERN stack (MongoDB, Express, React, Node.js)." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>DibyaZ0<span class="logo-bracket">/&gt;</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link nav-cta">Contact</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <p class="hero-eyebrow"><span class="dot"></span> Available for opportunities</p>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Dibya Jyoti Sahoo</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    <span class="typed" id="typed">Full Stack Developer</span><span class="cursor">|</span>
+                </h2>
+                <p class="hero-desc">
+                    Entry-level Software Engineer based in Bengaluru, building scalable and maintainable
+                    full-stack web applications with the <strong>MERN stack</strong>. I love crafting clean
+                    REST APIs, optimising databases, and shipping pixel-perfect React UIs.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fa-solid fa-rocket"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-ghost">
+                        <i class="fa-solid fa-paper-plane"></i> Get In Touch
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:dibyajyoti.sahoo1711@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="tel:+919692102044" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-card" aria-hidden="true">
+                    <div class="code-card-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="filename">developer.js</span>
+                    </div>
+                    <pre class="code-card-body"><code><span class="c-key">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-str">'Dibya Jyoti Sahoo'</span>,
+  <span class="c-prop">role</span>: <span class="c-str">'Full Stack Developer'</span>,
+  <span class="c-prop">location</span>: <span class="c-str">'Bengaluru, India'</span>,
+  <span class="c-prop">stack</span>: [<span class="c-str">'React'</span>, <span class="c-str">'Node'</span>, <span class="c-str">'Express'</span>, <span class="c-str">'MongoDB'</span>],
+  <span class="c-prop">languages</span>: [<span class="c-str">'JavaScript'</span>, <span class="c-str">'Java'</span>, <span class="c-str">'Python'</span>],
+  <span class="c-prop">passion</span>: <span class="c-str">'Building scalable web apps'</span>,
+  <span class="c-prop">hireable</span>: <span class="c-bool">true</span>
+};</code></pre>
+                </div>
+                <div class="floating-tag tag-1"><i class="fa-brands fa-react"></i> React</div>
+                <div class="floating-tag tag-2"><i class="fa-brands fa-node-js"></i> Node.js</div>
+                <div class="floating-tag tag-3"><i class="fa-solid fa-database"></i> MongoDB</div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll to About">
+            <span></span>
+        </a>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-tag">01 — About</p>
+                <h2 class="section-title">A bit about <span class="gradient-text">me</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm an <strong>entry-level Software Engineer</strong> with hands-on experience in
+                        designing, developing, testing, and deploying full-stack web applications. My toolkit
+                        revolves around <strong>JavaScript, React, Node.js, Express, and MongoDB</strong>.
+                    </p>
+                    <p>
+                        I have a strong foundation in <strong>OOP concepts, RESTful API design, debugging</strong>
+                        and the <strong>SDLC</strong>. During my internship at Cuvette Tech, I shipped production
+                        APIs that reduced response latency by 30% through smart MongoDB indexing and aggregation.
+                    </p>
+                    <p>
+                        I'm currently seeking a <strong>Software Engineer role</strong> where I can build
+                        scalable, maintainable applications and grow alongside an ambitious team.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-num" data-target="10">0</div>
+                            <div class="stat-label">Months of <br/>Internship Experience</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-num" data-target="30">0</div>
+                            <div class="stat-label">% API Latency<br/>Reduction</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-num" data-target="5">0</div>
+                            <div class="stat-label">Major Projects &<br/>Hackathons</div>
+                        </div>
+                    </div>
+                </div>
+                <aside class="about-card">
+                    <h3>Quick Facts</h3>
+                    <ul class="info-list">
+                        <li><i class="fa-solid fa-location-dot"></i><span><strong>Location</strong> Bengaluru, India</span></li>
+                        <li><i class="fa-solid fa-graduation-cap"></i><span><strong>Education</strong> B.Tech CSE, 2024</span></li>
+                        <li><i class="fa-solid fa-briefcase"></i><span><strong>Role</strong> Full Stack Developer</span></li>
+                        <li><i class="fa-solid fa-code"></i><span><strong>Stack</strong> MERN + Java/Python</span></li>
+                        <li><i class="fa-solid fa-language"></i><span><strong>Languages</strong> English, Hindi, Odia</span></li>
+                        <li><i class="fa-solid fa-circle-check"></i><span><strong>Status</strong> Open to work</span></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-tag">02 — Skills</p>
+                <h2 class="section-title">My <span class="gradient-text">tech stack</span></h2>
+                <p class="section-subtitle">Technologies, tools, and methodologies I work with every day.</p>
+            </div>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-globe"></i></div>
+                    <h3>Web Technologies</h3>
+                    <ul class="chip-list">
+                        <li>HTML5</li><li>CSS3</li><li>React.js</li><li>Node.js</li>
+                        <li>Express.js</li><li>REST APIs</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Programming Languages</h3>
+                    <ul class="chip-list">
+                        <li>JavaScript (ES6+)</li><li>Core Java</li><li>Python Basics</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+                    <h3>Databases</h3>
+                    <ul class="chip-list">
+                        <li>MongoDB</li><li>MySQL</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h3>Frameworks & Tools</h3>
+                    <ul class="chip-list">
+                        <li>Context API</li><li>Git</li><li>GitHub</li>
+                        <li>Postman</li><li>JWT Auth</li><li>Vercel</li><li>Render</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3>Concepts</h3>
+                    <ul class="chip-list">
+                        <li>OOP (Java)</li><li>DSA Basics</li><li>SDLC</li>
+                        <li>Agile</li><li>Unit Testing</li><li>Debugging</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3>Soft Skills</h3>
+                    <ul class="chip-list">
+                        <li>Problem Solving</li><li>Communication</li><li>Team Collaboration</li>
+                        <li>Adaptability</li><li>Time Management</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-tag">03 — Experience</p>
+                <h2 class="section-title">Where I've <span class="gradient-text">worked</span></h2>
+            </div>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Sep 2024 – Jun 2025</span>
+                            <span class="timeline-tag">Internship · Remote</span>
+                        </div>
+                        <h3>Full Stack Developer Intern</h3>
+                        <p class="timeline-company">Cuvette Tech</p>
+                        <ul class="timeline-list">
+                            <li>Designed and implemented <strong>RESTful APIs</strong> using Node.js and Express, supporting full CRUD workflows.</li>
+                            <li>Optimized MongoDB queries using <strong>indexing and aggregation</strong>, reducing API response latency by <strong>30%</strong>.</li>
+                            <li>Integrated React frontend components with backend APIs for real-time data updates.</li>
+                            <li>Collaborated in an Agile environment using Git/GitHub — code reviews, branching, iterative development.</li>
+                            <li>Tested APIs with Postman and authored basic unit tests; deployed apps via <strong>Vercel / Render</strong>.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-dot"><i class="fa-solid fa-laptop-code"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 3 months</span>
+                            <span class="timeline-tag">Internship · Remote</span>
+                        </div>
+                        <h3>Web Developer Intern</h3>
+                        <p class="timeline-company">CodeAlpha</p>
+                        <ul class="timeline-list">
+                            <li>Built responsive frontend interfaces and interactive components using HTML, CSS, and JavaScript.</li>
+                            <li>Practised modern web development workflows under mentor reviews.</li>
+                            <li>Delivered project tasks on schedule while learning collaborative coding standards.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="timeline-item">
+                    <div class="timeline-dot"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <div class="timeline-meta">
+                            <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 1 month</span>
+                            <span class="timeline-tag">Internship · Remote</span>
+                        </div>
+                        <h3>Web Developer Intern</h3>
+                        <p class="timeline-company">Codsoft</p>
+                        <ul class="timeline-list">
+                            <li>Designed and implemented basic web applications using HTML, CSS, and JavaScript, ensuring responsive layouts.</li>
+                            <li>Improved development efficiency by following best practices and completing tasks on schedule.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-tag">04 — Projects</p>
+                <h2 class="section-title">Featured <span class="gradient-text">projects</span></h2>
+                <p class="section-subtitle">Real applications built end-to-end with the MERN stack.</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-visual">
+                        <div class="project-emoji">🍽️</div>
+                        <div class="project-overlay">
+                            <span><i class="fa-brands fa-react"></i> React</span>
+                            <span><i class="fa-brands fa-node-js"></i> Node</span>
+                            <span><i class="fa-solid fa-database"></i> MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-date">May 2025</div>
+                        <h3>Restaurant Management Web Application</h3>
+                        <p>
+                            Full-stack restaurant operations platform with role-based admin access for menu,
+                            table, and order management. Built REST APIs for orders, billing, and reservations
+                            using MongoDB schema design.
+                        </p>
+                        <div class="project-tech">
+                            <span>React.js</span><span>Node.js</span><span>Express.js</span>
+                            <span>MongoDB</span><span>Context API</span><span>React Router</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Highlights</h4>
+                            <ul>
+                                <li>Role-based admin panel for staff & owners</li>
+                                <li>Menu, table & live order management</li>
+                                <li>REST APIs for orders, billing, reservations</li>
+                                <li>React Hooks + Context API state management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual visual-alt">
+                        <div class="project-emoji">🎫</div>
+                        <div class="project-overlay">
+                            <span><i class="fa-solid fa-shield-halved"></i> JWT</span>
+                            <span><i class="fa-solid fa-comments"></i> Real-time</span>
+                            <span><i class="fa-solid fa-chart-line"></i> Analytics</span>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-date">March 2025</div>
+                        <h3>Ticketing System & CRM</h3>
+                        <p>
+                            Full-stack ticketing & CRM system with JWT authentication, role-based access
+                            for admins and team members, ticket assignment, search & pagination, and live
+                            analytics dashboards.
+                        </p>
+                        <div class="project-tech">
+                            <span>React.js</span><span>Node.js</span><span>Express</span>
+                            <span>MongoDB</span><span>JWT</span><span>WebSockets</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Highlights</h4>
+                            <ul>
+                                <li>JWT auth with admin/agent/user roles</li>
+                                <li>Ticket creation, assignment, search & pagination</li>
+                                <li>Real-time chat support module</li>
+                                <li>Dashboards with KPIs & analytics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Achievements -->
+    <section class="section" id="certifications">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-tag">05 — Certifications & Achievements</p>
+                <h2 class="section-title">Credentials & <span class="gradient-text">milestones</span></h2>
+            </div>
+            <div class="cert-grid">
+                <article class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                    <h3>MERN Full Stack Development</h3>
+                    <p class="cert-issuer">Cuvette Tech · 6 Months · Remote</p>
+                    <p>Comprehensive program covering MongoDB, Express, React and Node.js with hands-on projects.</p>
+                </article>
+                <article class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-trophy"></i></div>
+                    <h3>Smart India Hackathon</h3>
+                    <p class="cert-issuer">SIH 2022 · Participant</p>
+                    <p>Participated in India's largest open-innovation hackathon solving real-world problem statements.</p>
+                </article>
+                <article class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-medal"></i></div>
+                    <h3>Flipkart Grid 5.0</h3>
+                    <p class="cert-issuer">Software Development Track</p>
+                    <p>Took part in Flipkart's flagship engineering challenge focused on building scalable software.</p>
+                </article>
+                <article class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3>Innovation Expo (E-Summit)</h3>
+                    <p class="cert-issuer">IIT Bhubaneswar</p>
+                    <p>Showcased innovative tech ideas at the IIT Bhubaneswar E-Summit Innovation Expo.</p>
+                </article>
+                <article class="cert-card">
+                    <div class="cert-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <h3>Full Stack Masterclass</h3>
+                    <p class="cert-issuer">NoviTech · 1 Month · Remote</p>
+                    <p>Completed 30 days master class on full stack developmnt using MERN Stack .</p>
+                </article>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-head">
+                <p class="section-tag">06 — Contact</p>
+                <h2 class="section-title">Let's <span class="gradient-text">build something</span></h2>
+                <p class="section-subtitle">I'm actively looking for Software Engineer roles. Reach out — I'd love to hear from you.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <a href="mailto:dibyajyoti.sahoo1711@gmail.com" class="contact-item">
+                        <div class="contact-icon"mas><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">dibyajyoti.sahoo1711@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="tel:+919692102044" class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <span class="contact-label">Phone</span>
+                            <span class="contact-value">+91 96921 02044</span>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener" class="contact-item">
+                        <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                        <div>
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">Dibyajyoti Sahoo</span>
+                        </div>
+                    </a>
+                    <a href="https://github.com/" target="_blank" rel="noopener" class="contact-item">
+                        <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+                        <div>
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value">Dibyajyoti Sahoo</span>
+                        </div>
+                    </a>
+                    <div class="contact-item static">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Bengaluru, India</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" novalidate>
+                    <h3>Send a message</h3>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input id="name" name="name" type="text" placeholder="Your full name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input id="subject" name="subject" type="text" placeholder="What's it about?" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me a bit about the role or project..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fa-solid fa-paper-plane"></i> Send Message
+                    </button>
+                    <p class="form-status" id="formStatus" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>
+                <a href="#hero" class="nav-logo">
+                    <span class="logo-bracket">&lt;</span>DibyaZ0<span class="logo-bracket">/&gt;</span>
+                </a>
+                <p>Full Stack Developer · Bengaluru, India</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:dibyajyoti.sahoo1711@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="footer-copy">© <span id="year"></span> Dibya Jyoti Sahoo. Crafted with <i class="fa-solid fa-heart"></i> &amp; code.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
